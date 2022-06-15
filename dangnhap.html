@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dangnhap.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Dang-Nhap</title>
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+            <nav id="menu">
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <p class="p"><a href="index.html">© 2022. Mercedes-Benz </a></p>
+                <ul>
+                    <li><a  href="sanpham.html">Mua trực tuyến</a></li>
+                    <li><a href="gioithieu.html">Giới thiệu</a></li>
+                    <li><a href="#">Dịch vụ</a></li>
+                    <li><a href="#">Tư vấn</a></li>
+                    <li><a class="search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a class="dam" class="search" href="dangnhap.html"><i class="fa-solid fa-user-plus"></i></i></a></li>
+                </ul>
+            </nav>
+            <nav class="menu_mobile">
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <a href="index.html"><p class="p">© 2022. Mercedes-Benz </p></a>
+                <ul>
+                    <li><a href="sanpham.html">Mua trực tuyến</a></li>
+                    <li><a href="gioithieu.html">Giới thiệu</a></li>
+                    <li><a class="search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a href="#">Dịch vụ</a></li>
+                    
+                    <li><a href="#">Tư vấn</a></li>
+             
+                <li><a class="search" href="#"><i class="fa-solid fa-user-plus"></i></i></a></li>
+                   
+                </ul>
+            </nav>
+            <nav class="mobile">
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+               <a href="index.html"> <p class="p">© 2022. Mercedes-Benz </p></a>
+
+
+                    <ul class="root">
+                        <li><a href="" class="dam">Đăng nhập <span><i class="fa-solid fa-angle-down"></i></span></a>
+                            <ul class="submenu">
+                                <li><a href="index.html">Trang chủ</a></li>
+                                <li><a href="sanpham.html">Mua trực tuyến</a></li>
+                                <li><a href="gioithieu.html">Giới thiệu</a></li>
+                                <li><a href="#">Dịch vụ</a></li>
+                                <li><a href="#">Tư vấn</a></li>
+                                <li><a class="search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                                <li><a class="search" href="dangnhap.html"><i class="fa-solid fa-user-plus"></i></i></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+            </nav>
+        </header>
+
+        <!-- end header -->
+
+        <section id="content">
+
+            <div class="form">
+                <div class="img">
+                    <img src="images/logo.png" alt="">
+                    <p ><a class="tenlogo" href="index.html">© 2022. Mercedes-Benz </a></p>
+                </div>
+                <h2>Đăng Nhập</h2>
+                <br>
+                <label for="">Tài khoản</label>
+                <br>
+                <input type="text" name="" id="ten" class="txt" placeholder="Nhập tài khoản">
+                <br>
+                <label for="">Mật khẩu</label>
+                <br>
+                <input type="text" name="" id="mk" class="txt" placeholder="Mật khẩu">
+                <br>
+                <button onclick="ktform()">Đăng Nhâp</button>
+                <br>
+                <span id="baoloi"><br></span>
+                <br>
+                <span>Bạn đã có tài khoản ?</span><a class="dangky" href="dangky.html">  Đăng ký</a>
+            </div>
+        </section>
+
+
+
+        <!-- end content -->
+        <footer class="footer">
+
+
+
+            <div class="footer1">
+               <hr>
+                <ul>
+                    <li><a href="#">Bảng quyền nội dung |</a></li>
+                    <li><a href="#"> cài đặt |</a></li>
+                    <li><a href="#"> Quyền riêng & bảo vệ dữ liệu |</a></li>
+                    <li><a href="#"> Thông tin pháp lý</a></li>
+                </ul>
+            </div>
+            <div class="cotfooter">
+                <div class="tieudefooter">
+                    <h2>Mua Xe</h2>
+                    <br>
+                    <ul>
+                        <li><a href="#">Xe qua sử dụng</a></li>
+                        <br>
+                        <li><a href="#">Xe mới</a></li>
+                        <br>
+                        <li><a href="#">Chọn cấu hình xe</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cotfooter">
+                <div class="tieudefooter">
+                    <h2>Tư vấn </h2>
+                    <br>
+                    <ul>
+                        <li><a href="#">Đăng ký lái thử</a></li>
+                        <br>
+                        <li><a href="#">Yêu cầu tư vấn</a></li>
+                        <br>
+                        <li><a href="#">Tìm đại lý gần nhất</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cotfooter">
+                <div class="tieudefooter">
+                    <h2>Dịch vụ</h2>
+                    <br>
+                    <ul>
+                        <li><a href="#">Đặt hẹn</a></li>
+                        <br>
+                        <li><a href="#">Ưu đãi đặc biệt</a></li>
+                        <br>
+                        <li><a href="#">Phụ kiện</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="cotfooter">
+                <div class="tieudefooter">
+                    <h2>Giới thiệu</h2>
+                    <br>
+                    <ul>
+                        <li><a href="#">Câu chuyện chúng tôi</a></li>
+                        <br>
+                        <li><a href="#">Tin tức & sự kiện</a></li>
+                        <br>
+                        <li><a href="#">Ưu đãi đặc biệt</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cotfooter2">
+                <div class="tieudefooter">
+                    <h2>Liên hệ</h2>
+                    <br>
+                    <ul>
+                        <li><a href="#">Fakebook <i class="fa-brands fa-facebook"></i></a></li>
+                        <br>
+                        <li><a href="#">Intargam <i class="fa-brands fa-instagram"></i></a></li>
+                        <br>
+                        <li><a href="#">Twitter <i class="fa-brands fa-twitter"></i></a></li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer2">
+                <div class="logo_footer">
+                  
+                    <img src="images/logo.png" alt="logo">
+
+                </div>
+                <div class="nhan">
+                    <p>© 2022. Mercedes-Benz</p>
+                </div>
+
+
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
+<script>
+    function ktform() {
+        var loi = "";
+        var tkadmin="admin";
+        var pass="admin";
+       
+            var ten= document.getElementById("ten");
+            var mk=document.getElementById("mk");
+        if(ten.value==""){
+            ten.className="loi"
+            loi+="Chưa nhập tài khoản <br>"
+        }
+        if(mk.value ==""){
+            mk.className="loi";
+            loi+="Chưa nhập mật khẩu <br>";
+        }
+        document.getElementById("baoloi").innerHTML=loi;
+
+    }
+</script>
